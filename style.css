@@ -1,0 +1,33 @@
+.elemento{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 4px dotted darkred ;
+    border-radius:20%;
+    padding:15px ;
+
+
+
+}
+
+#e1{
+    background-color: aquamarine;
+}
+#e2{
+    background-color: blue;
+} 
+#e2:hover{
+    background-color: bisque;
+}
+
+#e3 {background-color: blueviolet;
+}
+
+#contenedor{
+    display: flex;
+    grid-column: auto;
+    border: 5px dotted red;
+    padding:20px
+    
+
+}

@@ -96,6 +96,7 @@ main {
 
 #contenedor-imagenes div{
     height: 150px;
+    
 }
 
 
@@ -107,4 +108,5 @@ main {
 
 #caja-meditacion{
     display: flex;
+    
 }

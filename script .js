@@ -98,35 +98,27 @@ function saludoUsuario() {
     let generomasculino = document.getElementById("masculino")
 
     if (generofemenino.checked) {
-        alert("Bienvenida "+ inputUsuario);
+        alert("Bienvenida " + inputUsuario);
     } else if (generomasculino.checked) {
         alert("Bienvenido " + inputUsuario);
-    }else{
-        alert("como estas"+inputUsuario);
+    } else {
+        alert("como estas" + inputUsuario);
     }
+
+    mostrarUsuario(inputUsuario);
+}
+
+function mostrarUsuario(inputUsuario) {
+const contenedorUsuario=document.querySelector("#contenedor-usuario")
+const elementoUsuario=document.createElement("li")
+
+elementoUsuario.innerHTML = inputUsuario;
+contenedorUsuario.appendChild(elementoUsuario);
+
 }
 
 
-
-
-
-    let texto2 = document.body.querySelector("texto");
-    texto2.innerHTML = "guardado en mi variable";
-// para guardar los archivos y tener que poner de nuevo la busqueda 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let texto2 = document.body.querySelector("texto");
+texto2.innerHTML = "guardado en mi variable";
+    // para guardar los archivos y tener que poner de nuevo la busqueda 
 

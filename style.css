@@ -8,6 +8,7 @@
     text-align: center;
 
 
+
 }
 
 #e1 {
@@ -31,7 +32,7 @@
     grid-column: auto;
     border: 5px dotted red;
     padding: 20px;
-
+    background: linear-gradient(45deg, red, rgb(0, 183, 255), rgb(0, 128, 47));
 }
 
 nav {
@@ -109,4 +110,7 @@ main {
 #caja-meditacion{
     display: flex;
     
+}
+hr{
+    width: 100%;
 }

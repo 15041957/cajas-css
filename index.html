@@ -61,75 +61,135 @@
 
         <button onclick="modoNoche()">modo noche</button>
         <button onclick="modoDia()"> modoDia</button>
-
         <button onclick="saludar()">saludar</button>
 
-        <div id="contenedor">
-            <div class="elemento" id="e1">
-                <p>enlaces css</p>
-            </div>
-            <div class="elemento" id="e2">
-                <p>pincha aqui</p>
-            </div>
-            <div class="elemento" id="e3">
-                <p>color
-            </div>
 
-        </div>
+        <br>
 
-        <p id="texto"></p>
-
-        <div id="contenedor-imagenes">
-
-            <div>
-                <img src="imagenes/images.jpg" alt="" height="120px">
-                <p>Libros en español para niños de 5 a 6 años
-                    Kaia y las abejas. by Boelts, Maribeth. ...
-                    Jabari salta. by Cornwall, Gaia. ...
-                    Animales Totem. Los Espíritus Mensajeros De Unidad. ...
-                    Evelyn Del Rey se muda. by Medina, Meg. ...
-                    Un amigo para Dragón. by Pilkey, Dav. ...
-                    No hay planeta B. cuidemos la vida en la Tierra. ...
-                    Oye, muro.
-                    Por todo nuestro alrededor
-                </p>
-            </div>
-
-            <div>
-                <img src="\imagenes\istockphoto-1436793121-612x612.jpg" alt="" height="120px">
-                <p>Para muchas personas, una vida sin una mascota es casi inimaginable. Las mascotas proporcionan
-                    compañía, afecto y protección. Pueden convertirse en compañeros ...</p>
-            </div>
-
-            <div id="caja-meditacion">
-                <img src=" imagenes/istockphoto-1127245421-612x612.jpg" alt="" height="120px">
-                <h4> Meditacion</h4>
-                <ul>
-                    <li><a target="_blank" href="https://youtu.be/XQUsuq0f4_4">
-                            31.ª semana (3-9 de noviembre)</a> </li>
-                    <li><a target="_blank" href="https://youtu.be/Dq_JoHNzEDE?list=PLsgcHOyNqSUflYIT3OM28FDjwzjvosLsf&t=5">
-                            32.ª semana (10-16 de noviembre)</a> </li>
-                    <li><a target="_blank"
-                            href="https://youtu.be/XU4Vxf2DSmk?list=PLsgcHOyNqSUflYIT3OM28FDjwzjvosLsf">34.ª semana (24
-                            al 30 de noviembre)</a></li>
-                </ul>
-
-            </div>
-            <div>
-                <img src="imagenes/istockphoto-636379014-612x612.jpg" alt="" height="120px">
-
-                  <p>1. Allí donde el agua alcanza su mayor profundidad, se mantiene más en calma "William Shakespear"
-
-            </div>   
-
-            <div>
-
-                <img src="imagenes/istockphoto-486902368-612x612.jpg" alt="" height="120px">
-
-            </div>
+        <label for="nombre-usuario"> Nombre de usuario: </label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario">
+        
+        
+        <p>indique genero</p>
+        <input type="radio" name="genero" id="femenino" value="femenino" >
+        <label for="genero"> Fenenino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino" >
+        <label for="genero"> Masculino</label>
+        <button onclick="saludoUsuario()">Saludame</button>
 
 
-        </div>
+
+                <div id="contenedor">
+                    <div class="elemento" id="e1">
+                        <p>enlaces css</p>
+                    </div>
+                    <div class="elemento" id="e2">
+                        <p>pincha aqui</p>
+                    </div>
+                    <div class="elemento" id="e3">
+                        <p>color
+                    </div>
+
+                </div>
+
+                <p id="texto"></p>
+
+                <div id="contenedor-imagenes">
+
+                    <div>
+                        <img src="imagenes/images.jpg" alt="" height="120px">
+                        <p>Libros en español para niños de 5 a 6 años
+                            Kaia y las abejas. by Boelts, Maribeth. ...
+                            Jabari salta. by Cornwall, Gaia. ...
+                            Animales Totem. Los Espíritus Mensajeros De Unidad. ...
+                            Evelyn Del Rey se muda. by Medina, Meg. ...
+                            Un amigo para Dragón. by Pilkey, Dav. ...
+                            No hay planeta B. cuidemos la vida en la Tierra. ...
+                            Oye, muro.
+                            Por todo nuestro alrededor
+                        </p>
+                    </div>
+                    <hr>
+
+                    <div>
+                        <img src="\imagenes\istockphoto-1436793121-612x612.jpg" alt="" height="120px">
+                        <p>Para muchas personas, una vida sin una mascota es casi inimaginable. Las mascotas
+                            proporcionan
+                            compañía, afecto y protección. Pueden convertirse en compañeros ...</p>
+                    </div>
+                    <hr>
+
+                    <div id="caja-meditacion">
+                        <img src=" imagenes/istockphoto-1127245421-612x612.jpg" alt="" height="120px">
+                        <h4> Meditacion</h4>
+                        <ul>
+                            <li><a target="_blank" href="https://youtu.be/XQUsuq0f4_4">
+                                    31.ª semana (3-9 de noviembre)</a> </li>
+                            <li><a target="_blank"
+                                    href="https://youtu.be/Dq_JoHNzEDE?list=PLsgcHOyNqSUflYIT3OM28FDjwzjvosLsf&t=5">
+                                    32.ª semana (10-16 de noviembre)</a> </li>
+                            <li><a target="_blank"
+                                    href="https://youtu.be/XU4Vxf2DSmk?list=PLsgcHOyNqSUflYIT3OM28FDjwzjvosLsf">34.ª
+                                    semana
+                                    (24
+                                    al 30 de noviembre)</a></li>
+                        </ul>
+
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <img src="imagenes/istockphoto-636379014-612x612.jpg" alt="" height="120px">
+
+                        <p>Allí donde el agua alcanza su mayor profundidad, se mantiene más en calma "William
+                            Shakespear"
+
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <img src="imagenes/istockphoto-486902368-612x612.jpg" alt="" height="120px">
+                        <a href="https://youtu.be/u_yDPXiqL-w?t=17">Video animales </a>
+                        <p>
+                            BENEFICIOS FÍSICOS, SOCIALES Y EMOCIONALES
+                            De hecho, las mascotas tienen un papel importante en casi cada etapa del desarrollo humano.
+                            Para los niños, las mascotas fomentan un sentimiento de responsabilidad, cuidado y
+                            comunicación. La relación infunde confianza y amistad, cualidades que perduran y se
+                            fortalecen a medida que el niño va creciendo.
+                            En cuanto a los adultos, las mascotas adquieren papeles nuevos, proporcionando compañía a
+                            aquellas personas que viven solas; proporcionan la posibilidad de entrar en contacto con
+                            otras personas, por ejemplo, cuando un dueño pasea a su perro; y una motivación a las
+                            personas mayores que, ya que tienen una comunicación restringida con otras personas, pueden
+                            dar su amor y cariño a sus mascotas.</p>
+
+                    </div>
+
+                    <hr>
+                    <div>
+
+                        <img src="imagenes/hojas-otono-fondos-pantalla-fondos-pantalla-hd_188544-12666.jpg" alt=""
+                            height="120px">
+                        <p>Esparce octubre, al blando movimiento
+                            del sur, las hojas áureas y las rojas,
+                            y, en la caída clara de sus hojas,
+                            se lleva al infinito el pensamiento.
+
+                            Qué noble paz en este alejamiento
+                            de todo; oh prado bello que deshojas
+                            tus flores; oh agua fría ya, que mojas
+                            con tu cristal estremecido el viento!
+
+                            ¡Encantamiento de oro! Cárcel pura,
+                            en que el cuerpo, hecho alma, se enternece,
+                            echado en el verdor de una colina!
+                            En una decadencia de hermosura,</p>
+
+                    </div>
+
+
+                </div>
 
 
 

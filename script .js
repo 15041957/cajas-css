@@ -87,14 +87,32 @@ function modoDia() {
 }
 //seleciono para  primer elemento 
 // selectores 
-document.body.querySelector("texto").innerHTML="metiendo el codigo en p";
-document.querySelector("p").innerHTML= ""
+document.body.querySelector("texto").innerHTML = "metiendo el codigo en p";
+document.querySelector("p").innerHTML = ""
 //selecciono  todos los elementos 
 //document.queryselectoAll
 
-let texto2 = document.body.querySelector("texto");
-texto2.innerHTML="guardado en mi variable";
- // para guardar los archivos y tener que poner de nuevo la busqueda 
+function saludoUsuario() {
+    let inputUsuario = document.querySelector("#nombre-usuario").value
+    let generofemenino = document.getElementById("femenino")
+    let generomasculino = document.getElementById("masculino")
+
+    if (generofemenino.checked) {
+        alert("Bienvenida "+ inputUsuario);
+    } else if (generomasculino.checked) {
+        alert("Bienvenido " + inputUsuario);
+    }else{
+        alert("como estas"+inputUsuario);
+    }
+}
+
+
+
+
+
+    let texto2 = document.body.querySelector("texto");
+    texto2.innerHTML = "guardado en mi variable";
+// para guardar los archivos y tener que poner de nuevo la busqueda 
 
 
 

@@ -114,3 +114,8 @@ main {
 hr{
     width: 100%;
 }
+video{
+    float: left;
+    margin-right: 10px;
+    border: 3px solid rgb(222, 51, 51);
+}

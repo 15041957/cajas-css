@@ -92,7 +92,9 @@ document.querySelector("p").innerHTML = ""
 //selecciono  todos los elementos 
 //document.queryselectoAll
 
-function saludoUsuario() {
+function saludoUsuario(){
+    
+}
     let inputUsuario = document.querySelector("#nombre-usuario").value
     let generofemenino = document.getElementById("femenino")
     let generomasculino = document.getElementById("masculino")
@@ -106,7 +108,6 @@ function saludoUsuario() {
     }
 
     mostrarUsuario(inputUsuario);
-}
 
 function mostrarUsuario(inputUsuario) {
 const contenedorUsuario=document.querySelector("#contenedor-usuario")
